@@ -3,7 +3,7 @@ import firebase_admin
 from firebase_admin import credentials, auth
 
 # Initialize Firebase Admin SDK
-cred = credentials.Certificate('/Users/prajwalu/dev/SRH/Python2/Doodle_frontend/doodle-3e015-351df71b0db7.json')
+cred = credentials.Certificate('/Users/prajwalu/dev/SRH/Python2/Doodle_frontend/Doodle_main/Doodle/doodle-3e015-351df71b0db7.json')
 try:
     firebase_admin.initialize_app(cred)
 except ValueError:
